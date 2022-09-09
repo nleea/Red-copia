@@ -1,0 +1,27 @@
+.backdrop__ {
+    position: fixed;
+    background: rgba(0, 0, 0, 0.5);
+    opacity: 0.8;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 100;
+}
+
+.backdrop_picture {
+    width: 70%;
+    margin: 300px auto;
+    z-index: 500;
+}
+
+.backdrop_picture .card .card-image {
+    z-index: 500;
+    height: 400px;
+}
+
+.backdrop_picture .card .card-image img {
+    width: 350px !important;
+    height: 350px !important;
+    margin: 25px auto !important;
+}

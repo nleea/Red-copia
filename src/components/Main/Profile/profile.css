@@ -1,0 +1,45 @@
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.gallery img {
+    width: 35%;
+}
+
+.infor {
+    width: 200px;
+    text-align: center;
+}
+
+.infor__data {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.image_content {
+    width: max-content;
+}
+
+.card-button {
+    width: 90px;
+
+}
+
+@media(min-width:420px) {
+    .infor {
+        width: 450px;
+        display: flex;
+        flex-flow: wrap;
+        align-content: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .infor__data {
+        width: 80%;
+        text-align: center;
+    }
+}

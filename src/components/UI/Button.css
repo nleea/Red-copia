@@ -1,0 +1,11 @@
+.button_logout {
+    background: none;
+    border: none;
+    cursor: pointer;
+    height: 100%;
+}
+
+.btn-owner {
+    margin: 10px;
+    width: 130px
+}
